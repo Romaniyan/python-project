@@ -2,7 +2,7 @@ import tkinter as tk
 import time
 
 #create a function currenttime
-def currenttime()
+def currenttime():
     current_time = time.strftime("%a, %d %b %Y\n%H:%M:%S %p")
     digital_label.config(text=current_time)
     root.after(1000,currenttime)
